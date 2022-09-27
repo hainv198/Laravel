@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/league/config" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/composer" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/routing" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.3">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/laravel-ldcc/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>

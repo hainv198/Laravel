@@ -3,6 +3,13 @@
 <a href="{{route('courses.create')}}">Add new</a>
 <br>
 <table border="1" width="70%">
+
+    <caption>
+        <form>
+          Search <input type="search" name="q" value="{{$search}}">
+        </form>
+    </caption>
+
     <tr>
         <th>#</th>
         <th>Name</th>
@@ -31,3 +38,5 @@
         </tr>
     @endforeach
 </table>
+
+{{ $data->links() }}

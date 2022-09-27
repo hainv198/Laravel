@@ -2,19 +2,23 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\Course\StoreRequest;
 use App\Models\Course;
-use App\Http\Requests\StoreCourseRequest;
-use App\Http\Requests\UpdateCourseRequest;
 use Illuminate\Http\Request;
 
 class CourseController extends Controller
 {
 
-    public function index()
+    public function index(Request $request)
     {
-        $data = Course::get();
+
+        $search = $request -> get('q');
+        $data = Course:: query() -> where('name', 'like','%' . $search .'%')  -> paginate(2);
+        $data->appends(['q' => $search]);
+//        $data = Course::query() -> get();
         return view('course.index',[
-            'data' => $data
+            'data' => $data,
+            'search' => $search,
         ]);
     }
 
@@ -24,18 +28,21 @@ class CourseController extends Controller
         return view('course.create');
     }
 
-    public function store(Request $request)
+    public function store(StoreRequest $request)
     {
+
         // Cach viet theo OOP
-        $object = new Course();
+        /*$object = new Course();
         $object -> fill($request -> except(['_token']));
         $object -> name = $request ->get('name');
-        $object -> save();
-        // Dieu huong ve trang chu
-        return redirect() -> route('course.index');
+        $object -> save();*/
 
-        // Cach viet theo Query Bulder
-//        Course::create($request -> except('_token'))
+//         Cach viet theo Query Bulder
+        Course::query() -> create($request -> except('_token'));
+
+        // Dieu huong ve trang chu
+        return redirect() -> route('courses.index');
+
     }
 
     /**
@@ -70,13 +77,18 @@ class CourseController extends Controller
         );*/
 
         // cach 2
-        $course -> update(
+        /*$course -> update(
           $request -> except([
               '_token',
               '_method',
           ])
-        );
+        );*/
+        //update theo OOP
+       $course -> fill($request -> except('_token'));
+       $course -> save();
         return redirect() -> route('courses.index');
+
+
 
     }
 

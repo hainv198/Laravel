@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\Course\DestroyRequest;
 use App\Http\Requests\Course\StoreRequest;
+use App\Http\Requests\Course\UpdateRequest;
 use App\Models\Course;
 use Illuminate\Http\Request;
 
@@ -40,6 +42,9 @@ class CourseController extends Controller
 //         Cach viet theo Query Bulder
         Course::query() -> create($request -> except('_token'));
 
+        //Kiem tra validate luon
+//        Course::query() -> create($request -> validate());
+
         // Dieu huong ve trang chu
         return redirect() -> route('courses.index');
 
@@ -65,7 +70,7 @@ class CourseController extends Controller
     }
 
 
-    public function update(Request $request, Course $course)
+    public function update(UpdateRequest $request, Course $course)
     {
 //        dd($course -> name);
         // Cach 1
@@ -93,7 +98,7 @@ class CourseController extends Controller
     }
 
 // ham destroy bien thuoc tinh thanh doi tuong , kiem tra xem doi tuong do con ton tai hay khong
-    public function destroy(Course $course)
+    public function destroy(DestroyRequest $request,Course $course)
     {
         //dd($course);
         // Query builder tức là nó sẽ tự sinh ra câu SQL theo kiểu dạng delete

@@ -109,6 +109,8 @@
       <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/deprecation-contracts" />
       <path value="$PROJECT_DIR$/laravel-ldcc/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/laravel-ldcc/vendor/maximebf/debugbar" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3">

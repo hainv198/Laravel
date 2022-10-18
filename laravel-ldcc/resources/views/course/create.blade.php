@@ -1,4 +1,5 @@
-
+@extends('layout.master');
+{{--@section('')--}}
 {{--@if ($errors->any())
     <div class="alert alert-danger">
         <ul>

@@ -16,6 +16,11 @@ Route::put('courses/edit/{course}',[CourseController::class,'update']) -> name('
 
 // goi gon cac route
 Route::resource('courses',CourseController::class);
+// template
+
+Route::get('test',function () {
+   return view('layout.master');
+});
 
 /*Route::group(['prefix' => 'courses', 'as' => 'course.'],function() {
     Route::get('/',[CourseController::class,'index']);

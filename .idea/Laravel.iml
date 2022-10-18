@@ -115,6 +115,8 @@
       <excludeFolder url="file://$MODULE_DIR$/laravel-ldcc/vendor/symfony/finder" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-ldcc/vendor/symfony/deprecation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-ldcc/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/laravel-ldcc/vendor/barryvdh/laravel-debugbar" />
+      <excludeFolder url="file://$MODULE_DIR$/laravel-ldcc/vendor/maximebf/debugbar" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
